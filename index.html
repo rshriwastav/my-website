@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Area Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Triangle Area Calculator</h1>
+
+    <div class="container">
+        
+        <div class="left-section">
+            <form id="triangleForm">
+                <div class="input-group">
+                    <label for="x1">Vertex A (x<sub>1</sub>, y<sub>1</sub>):</label>
+                    <input type="text" id="x1" placeholder="x₁" step="any" required>
+                    <input type="text" id="y1" placeholder="y₁" step="any" required>
+                </div>
+                <div clas s="input-group"> 
+                    <label for="x2">Vertex B (x<sub>2</sub>, y<sub>2</sub>):</label>
+                    <input type="text" id="x2" placeholder="x₂" step="any" required>
+                    <input type="text" id="y2" placeholder="y₂" step="any" required>
+                </div>
+                <div class="input-group">
+                    <label for="x3">Vertex C (x<sub>3</sub>, y<sub>3</sub>):</label>
+                    <input type="text" id="x3" placeholder="x₃" step="any" required>
+                    <input type="text" id="y3" placeholder="y₃" step="any" required>
+                </div>
+                <button type="submit">Calculate Area</button>
+            </form>
+        </div>
+        <div class="right-section">
+           <img src="triangle.jpg" alt="Triangle">
+           <div class="result" id="result"></div>
+        </div>
+
+
+    
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
